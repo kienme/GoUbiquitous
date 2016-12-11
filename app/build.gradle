@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
 android {
+<<<<<<< HEAD
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
 
@@ -9,6 +10,15 @@ android {
         applicationId "com.example.android.sunshine.app"
         minSdkVersion 16
         targetSdkVersion 22
+=======
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.example.android.sunshine.app"
+        minSdkVersion 10
+        targetSdkVersion 21
+>>>>>>> 2a204052d149374db67405aa15a3ddb061131326
         versionCode 1
         versionName "1.0"
     }
